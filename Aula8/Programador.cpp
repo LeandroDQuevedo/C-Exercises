@@ -14,3 +14,10 @@ void Programador::setLinguagemProgramacao(string linguagemProgramacao)
 {
     this->linguagemProgramacao = linguagemProgramacao;
 }
+void Programador::imprime_dados()
+{
+    cout << "**Informações da Pessoa**" << endl
+    << "Nome: " << getNome() << endl
+    << "Idade: " << getIdade() << endl
+    << "Nota: " << getLinguagemProgramacao() << endl;
+}

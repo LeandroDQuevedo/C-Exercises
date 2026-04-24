@@ -16,3 +16,11 @@ void Aluno::setNota(double nota)
 {
     this->nota = nota;
 }
+
+void Aluno::imprime_dados()
+{
+    cout << "**Informações da Pessoa**" << endl
+    << "Nome: " << getNome() << endl
+    << "Idade: " << getIdade() << endl
+    << "Nota: " << nota << endl;
+}

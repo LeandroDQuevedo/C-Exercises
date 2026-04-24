@@ -11,5 +11,6 @@ public:
     Programador(string nome, int idade, string linguagemProgramacao);
     string getLinguagemProgramacao();
     void setLinguagemProgramacao(string linguagemProgramacao);
+    virtual void imprime_dados();
 };
 #endif

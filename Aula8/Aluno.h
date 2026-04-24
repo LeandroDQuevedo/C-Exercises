@@ -11,5 +11,6 @@ public:
     Aluno(string nome, int idade, double nota);
     double getNota();
     void setNota(double nota);
+    virtual void imprime_dados();
 };
 #endif

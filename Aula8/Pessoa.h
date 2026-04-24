@@ -13,6 +13,6 @@ public:
     int getIdade();
     void setNome(string nome);
     void setIdade(int idade);
-    void imprime_dados();
+    virtual void imprime_dados();
 };
 #endif
